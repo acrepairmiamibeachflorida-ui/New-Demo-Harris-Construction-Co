@@ -682,7 +682,7 @@ export default function HarrisContractingLiveDemo() {
                   video.play();
                 }}
               >
-                <source src="/Harris%20Thank%20You%20Video.mp4" type="video/mp4" />
+                <source src="/harristhankyou.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div
