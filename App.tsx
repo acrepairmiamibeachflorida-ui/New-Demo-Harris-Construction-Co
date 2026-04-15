@@ -673,7 +673,7 @@ export default function HarrisContractingLiveDemo() {
                 muted
                 loop
                 playsInline
-                style={{ width: "100%", height: "100%", objectFit: "contain", display: "block", background: "#000", cursor: "pointer" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", background: "#000", cursor: "pointer" }}
                 onClick={(e) => {
                   const video = e.currentTarget;
                   video.loop = false;
@@ -682,7 +682,7 @@ export default function HarrisContractingLiveDemo() {
                   video.play();
                 }}
               >
-                <source src="/Harris-Thank-You-Video.mp4" type="video/mp4" />
+                <source src="/Harris%20Thank%20You%20Video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div
